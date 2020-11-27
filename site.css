@@ -1,8 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap');
-h1 {
-    color : yellow;
-    font-family: 'Saira Semi Condensed', sans-serif;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    margin: auto;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+
+body{
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: blue;
+
+}
+
+#heads{
+    color: yellow;
 }
