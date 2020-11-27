@@ -55,3 +55,24 @@ hr{
     padding:0rem 0.5rem;
     display: inline;
 }
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .link{
+    color: white;
+}
+.list-non-bullet-nav-pills{
+    text-align: right;
+    font-size: 1.1rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
