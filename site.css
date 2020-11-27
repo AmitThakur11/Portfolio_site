@@ -2,8 +2,9 @@
 
 
 :root{
-    --primary-color:#4994B7;
+    --primary-color:#6C8E3F;
     --dark-gray:#6B7280;
+    --light-gray :#F3F4F6;
 }
 
 body{
@@ -33,6 +34,7 @@ body{
 .primary-link{
     background-color : var(--primary-color);
     border-radius: 0.5rem;
+    color: white;
 }
 .secondary-link{
     color : var(--primary-color);
@@ -67,7 +69,7 @@ hr{
 }
 .navigation .nav-brand{
     font-weight: bold;
-    font-size:1rem;
+    font-size:1.7rem;
     
 }
 
@@ -91,4 +93,16 @@ hr{
 
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+}
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+    
+}
+.ow{
+    background-color: var(--light-gray);
 }
