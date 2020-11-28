@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary-color:#34597B;
+    --primary-color:#679A14;
     /**#6C8E3F**/
     --dark-gray:#6B7280;
     --light-gray :#F3F4F6;
@@ -137,6 +137,6 @@ footer{
     padding: 1.1rem;
     
 }
-.section h1{
+.section .h1{
     color: var(--primary-color);
 }
