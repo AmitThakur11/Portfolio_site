@@ -132,3 +132,11 @@ footer{
     text-align: center;
 }
 
+.section .ul{
+    text-align: center;
+    padding: 1.1rem;
+    
+}
+.section h1{
+    color: var(--primary-color);
+}
