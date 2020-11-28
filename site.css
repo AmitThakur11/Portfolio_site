@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary-color:#6C63FF;
+    --primary-color:#829284;
     /**#6C8E3F**/
     --dark-gray:#6B7280;
     --light-gray :#F3F4F6;
@@ -12,6 +12,7 @@ body{
     
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    text-align: justify;
 }
 
 /** container **/
@@ -133,18 +134,4 @@ footer{
 
 *{
     box-sizing: border-box;
-}
-  
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px;
-}
-  
-  /* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
