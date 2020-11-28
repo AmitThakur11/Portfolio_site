@@ -27,6 +27,7 @@ body{
 
 }
 
+
 /** links **/
 
 .link{
@@ -124,4 +125,28 @@ footer{
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+.blog-image{
+    max-width: 100px;   
+}
+.para-image{
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+  
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
