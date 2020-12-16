@@ -59,9 +59,12 @@ hr{
 }
 .navigation{
     background-color: var(--primary-color);
+    position: sticky;
+    top: 0;
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    box-shadow: 4px 4px 32px 4px rgba(0,0,0,.34);
 }
 .navigation .link{
     color: white;
@@ -73,6 +76,7 @@ hr{
 .navigation .nav-brand{
     font-weight: bold;
     font-size:1.7rem;
+    
     
 }
 
@@ -109,6 +113,7 @@ hr{
 }
 .ow{
     background-color: var(--light-gray);
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,.17);
 }
 
 /**Footer**/
@@ -116,6 +121,7 @@ hr{
 
 .para-image{
     text-align: center;
+    box-shadow: 4px 4px 32px 4px rgba(0,0,0,.34);
 }
 
 .section .ul{
@@ -125,4 +131,10 @@ hr{
 }
 .section .h1{
     color: var(--primary-color);
+}
+footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding:1rem;
+    
 }
