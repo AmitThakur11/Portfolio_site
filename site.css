@@ -46,6 +46,8 @@ body{
 
 }
 
+
+
 hr{
     margin: 2rem 0rem;
 }
@@ -98,10 +100,12 @@ hr{
 .hero .hero-heading{
     color: var(--dark-gray);
     text-align: center;
+    font-size:2rem;
 }
 
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+    
 }
 
 .section{
