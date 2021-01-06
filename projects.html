@@ -7,7 +7,7 @@
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="site.css">
 </head>
-<body >
+<body onload="loadfun()" >
     <nav class = "navigation container ">
         <div class = "nav-brand"><a class = "link link-active" href="/">IamDeveloper</a></div>
             <ul class = "list-non-bullet-nav-pills">
@@ -155,7 +155,13 @@
                     </li>
                 </ul>
     </footer>
-    <script src="index.js"></script>
+    <script >
+        var load = document.getElementById("loading");
+        function loadfun()
+        {
+            load.style.display = 'none';
+        }
+    </script>
 
 </body>
 </html>
